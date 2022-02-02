@@ -1,0 +1,86 @@
+@charset "UTF-8";
+/* CSS DOCUMENT */
+
+  #container
+  {
+    width:650px;
+    margin: 0 auto;
+    border: 0.5px solid black;
+    padding-left: 44px;
+    padding-right: 44px;
+
+
+  }
+
+  .hidden{
+    display: none;
+  }
+
+
+  body{
+    padding: 0px;
+    font-family: 'Dongle', sans-serif;
+  }
+
+  h2
+  {
+    font-weight: bold;
+    font-size:44px;
+    background-color: white;
+    color: black;
+    letter-spacing: 0px;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+
+
+  }
+
+  .king
+  {
+    text-decoration: underline;
+    text-align:center;
+    font-family: 'Comforter', cursive;
+  }
+
+  p
+  {
+    color:black;
+    background-color: white;
+    font-size:26px;
+    line-height:19px;
+  }
+
+  .dropCap {
+    font-size:100px;
+    font-weight: 400;
+    line-height: 70px;
+    float: left;
+    margin: 5px 10px 0px 0px;
+  }
+
+  .floatImgLeft {
+    float: left;
+    margin-right: 20px;
+    padding: 0;
+  }
+
+  .floatImgRight {
+    float: right;
+    margin-left: 20px;
+    padding: 0;
+  }
+
+figure{
+  display: block;
+  filter:grayscale(0.9);
+  transition: filter 0.9s ease-in-out;
+  margin: 0;
+  padding: 0;
+}
+
+figure:hover{
+  cursor: pointer;
+  transform: scale(0.9);
+  filter:none;
+}
